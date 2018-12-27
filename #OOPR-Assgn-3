@@ -1,0 +1,17 @@
+#OOPR-Assgn-3
+#Start writing your code here
+class Customer:
+    def __init__(self):
+        self.amt = None
+        self.name = None
+        
+    def purches(self,amt):
+        self.pays_bill('kunal')
+        amt=amt-(amt*5/100)
+        print(self.name,"pays bill amount of Rs",amt) 
+    def pays_bill(self,name):
+        self.name=name
+        
+          
+c1=Customer() 
+c1.purches(2000)
