@@ -1,0 +1,16 @@
+#OOPR-Exer-3
+#Start writing your code here
+class Employee:
+    
+    def __init__(self,name,salary,age):
+      
+        self.name = name
+        self.salary = salary
+        self.age = age
+
+Jack=Employee("Jack", 30000,24)
+print("my name is", Jack.name, "and salary is", Jack.salary,"age is",Jack.age)  
+
+Jill=Employee("Jill", 40000,27)
+print("my name is", Jill.name, "and salary", Jill.salary,"age is",Jill.age)      
+                                                    
