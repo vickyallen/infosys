@@ -1,0 +1,19 @@
+#PF-Exer-11
+
+def display(num):
+    if num%3==0 and num%5==0 :
+        message="Zoom"
+        return message
+    elif num%5==0:
+        message="Zap"
+        return message
+    elif num%3==0 :
+        message="Zip"
+        return message
+    else:
+        message="Invalid"
+        return message
+
+#Provide different values for num and test your program
+message=display(15)
+print(message)
