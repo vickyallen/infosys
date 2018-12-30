@@ -1,0 +1,20 @@
+#PF-Tryout
+#Start writing your code here
+def mark(num):
+    if (num>=80 and num<=100):
+        message="A"
+        return message
+    elif (num>=73 and num<=79):    
+        message="B"
+        return message
+    elif (num>=65 and num<=72):    
+        message="C"
+        return message
+    elif (num>=0 and num<=64):    
+        message="D"
+        return message 
+    else:
+        message="Z"
+        return message
+        
+print(mark(-8))        
